@@ -1,0 +1,40 @@
+{
+  "author" : "Egor Eremeev",
+  "category" : "environment",
+  "version" : "1.0.0",
+  "homepage" : "https://github.com/iNorD/zway-zimipowerstrip",
+  "icon" : "icon.png",
+  "maturity" : "beta",
+  "defaults" : {
+    "description" : "__m_descr__",
+    "title" : "__m_title__"
+  },
+  "dependencies" : [],
+  "moduleName" : "ZimiPowerStrip",
+  "options" : {
+    "fields" : {
+
+      "ip": {
+        "label": "__l_ip__",
+        "placeholder": "__l_ip__"
+      }
+
+    }
+  },
+  "repository" : {
+    "source" : "https://github.com/iNorD/zway-zimipowerstrip",
+    "type" : "git"
+  },
+  "schema" : {
+    "properties" : {
+
+      "ip": {
+        "type": "string",
+        "required": true
+      }
+
+    }
+  },
+  "singleton" : true
+
+}

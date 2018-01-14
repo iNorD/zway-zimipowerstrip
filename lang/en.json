@@ -1,0 +1,5 @@
+{
+  "m_descr" : "This module lets you turn off and turn on the Zimi power strip. <br>Check <a href=https://github.com/iNorD/zway-zimipowerstrip>github.com/iNorD/zway-zimipowerstrip</a> for detailed documentation.",
+  "m_title" : "Zimi Power Strip",
+  "l_ip": "ip"
+}
