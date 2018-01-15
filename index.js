@@ -75,7 +75,6 @@ ZimiPowerStrip.prototype.switchMode = function(ip, command) {
 
     var args = Array.prototype.slice.call(arguments);
     var systemCommand = '/opt/z-way-server/automation/' + self.moduleBasePath() + '/miio.sh ' + args.join(' ');
-    self.controller.addNotification("error", systemCommand, langFile.connection, "NetAtmo");
 
     system(systemCommand);
 
